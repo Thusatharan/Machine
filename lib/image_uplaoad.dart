@@ -157,6 +157,7 @@ class _ImageUploadState extends State<ImageUpload> {
                       : null,
                   child: Text('Search Exercise'),
                   style: ButtonStyle(
+                    padding: MaterialStateProperty.all(EdgeInsets.all(40)),
                     backgroundColor: MaterialStateProperty.all(
                         isImageUploaded == true
                             ? Colors.deepOrange
